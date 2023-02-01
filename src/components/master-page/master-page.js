@@ -1,8 +1,8 @@
 import React from "react";
-import Layout from "../components/layout";
-import MasterTable from "../components/master-table";
+import Layout from "../layout";
+import MasterTable from "../master-table";
 
-const Home = (props) => {
+const MasterPage = (props) => {
   return (
     <>
       <Layout>
@@ -13,4 +13,4 @@ const Home = (props) => {
   );
 };
 
-export default Home;
+export default MasterPage;

@@ -1,11 +1,11 @@
 import React from "react";
 import "./styles.css";
-import Home from "./pages/home";
+import MasterPage from "./components/master-page/master-page";
 
 export default function App() {
   return (
     <div className="App">
-      <Home />
+      <MasterPage />
     </div>
   );
 }
