@@ -4,6 +4,8 @@ import "@ui5/webcomponents/dist/Avatar";
 import "@ui5/webcomponents/dist/Input";
 import "@ui5/webcomponents/dist/Icon";
 
+import './header.css';
+
 export default function Header() {
   return (
     <div>
