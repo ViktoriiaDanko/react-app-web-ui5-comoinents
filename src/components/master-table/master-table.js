@@ -53,7 +53,7 @@ const MasterTable = (props) => {
         </ui5-table-column>
 
         {data.map((d) => (
-          <TableRow {...d} />
+          <TableRow {...d} key={d.model} />
         ))}
       </ui5-table>
     </>
