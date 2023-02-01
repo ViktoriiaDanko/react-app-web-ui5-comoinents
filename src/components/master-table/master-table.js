@@ -48,9 +48,9 @@ const MasterTable = (props) => {
           <span style={{ lineHeight: "1.4rem" }}>Price</span>
         </ui5-table-column>
 
-        <ui5-table-column slot="columns">
+        {/* <ui5-table-column slot="columns">
           <span style={{ lineHeight: "1.4rem" }}>Actions</span>
-        </ui5-table-column>
+        </ui5-table-column> */}
 
         {data.map((d) => (
           <TableRow {...d} key={d.model} />
@@ -60,7 +60,12 @@ const MasterTable = (props) => {
   );
 };
 
+// const showData = () => {
+//   alert('test')
+// };
+
 const TableRow = (props) => {
+
   return (
     <ui5-table-row
       ui5-table-row=""
@@ -94,9 +99,9 @@ const TableRow = (props) => {
           {props.priceUnit}
         </span>
       </ui5-table-cell>
-      <ui5-table-cell>
-        <ui5-button design="Default" icon="edit"></ui5-button>
-      </ui5-table-cell>
+       {/* <ui5-table-cell>
+        <ui5-button design="Default" icon="edit" onClick={showData}></ui5-button>
+      </ui5-table-cell>  */}
     </ui5-table-row>
   );
 };
