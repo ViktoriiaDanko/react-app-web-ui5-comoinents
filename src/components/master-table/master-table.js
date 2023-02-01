@@ -5,7 +5,7 @@ import "@ui5/webcomponents/dist/TableRow";
 import "@ui5/webcomponents/dist/TableCell";
 import "@ui5/webcomponents/dist/Button";
 // import "@ui5/webcomponents/dist/Icon";
-import data from "../../tabledata.js";
+import data from "../../table-data/tabledata.js";
 
 import './master-table.css';
 
