@@ -13,7 +13,7 @@ const MasterTable = (props) => {
   return (
     <>
       <ui5-table
-        class="demo-table"
+        className="demo-table"
         id="table"
         no-data-text="No Data"
         show-no-data
@@ -69,7 +69,7 @@ const TableRow = (props) => {
       style={{ textAlign: "left" }}
     >
       <ui5-table-cell ui5-table-cell="" first-in-row="" slot="default-1">
-        <div class="double-line-content">
+        <div className="double-line-content">
           <span>
             <b>{props.name}</b>
           </span>
@@ -77,19 +77,19 @@ const TableRow = (props) => {
         </div>
       </ui5-table-cell>
       <ui5-table-cell ui5-table-cell="" slot="default-2">
-        <span class="middle">{props.supplier}</span>
+        <span className="middle">{props.supplier}</span>
       </ui5-table-cell>
       <ui5-table-cell ui5-table-cell="" slot="default-3">
-        <span class="middle">{props.dim}</span>
+        <span className="middle">{props.dim}</span>
       </ui5-table-cell>
       <ui5-table-cell ui5-table-cell="" slot="default-4">
-        <span style={{ color: "#2b7c2b" }} class="middle">
+        <span style={{ color: "#2b7c2b" }} className="middle">
           <b>{props.weight}</b>
           {props.weightUnit}
         </span>
       </ui5-table-cell>
       <ui5-table-cell ui5-table-cell="" last-in-row="" slot="default-5">
-        <span class="middle">
+        <span className="middle">
           <b>{props.price}</b>
           {props.priceUnit}
         </span>
