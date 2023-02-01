@@ -5,9 +5,11 @@ import "@ui5/webcomponents/dist/TableRow";
 import "@ui5/webcomponents/dist/TableCell";
 import "@ui5/webcomponents/dist/Button";
 // import "@ui5/webcomponents/dist/Icon";
-import data from "../tabledata.js";
+import data from "../../tabledata.js";
 
-const Table = (props) => {
+import './master-table.css';
+
+const MasterTable = (props) => {
   return (
     <>
       <ui5-table
@@ -99,4 +101,4 @@ const TableRow = (props) => {
   );
 };
 
-export default Table;
+export default MasterTable;
