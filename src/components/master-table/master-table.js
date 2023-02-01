@@ -73,7 +73,7 @@ const TableRow = (props) => {
           <span>
             <b>{props.name}</b>
           </span>
-          <span style={{ marginTop: "0.5rem" }}>{props.model}</span>
+          <span style={{ marginTop: "0.5rem" }}><p>{props.model}</p></span>
         </div>
       </ui5-table-cell>
       <ui5-table-cell ui5-table-cell="" slot="default-2">
